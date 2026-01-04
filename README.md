@@ -1,7 +1,7 @@
 [![Alt text](banner.png)](https://www.datanovaconsulting.com)
 
 <h1 align="center">Hi, I'm Andrew Crooks 👋</h1>
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=andrewtcrooks.andrewtcrooks&left_color=royalblue&right_color=black"  />
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=andrewtcrooks&left_color=royalblue&right_color=black"  />
 
 <p align="center">Python • Automation • Scraping • Data</p>
 
