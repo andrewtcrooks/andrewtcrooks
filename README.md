@@ -3,7 +3,7 @@
 <h1 align="center">Hi, I'm Andrew Crooks 👋</h1>
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=andrewtcrooks&left_color=royalblue&right_color=black"  />
 
-<p align="center">Python • Automation • Scraping • Data</p>
+<!-- <p align="center">Python • Automation • Scraping • Data</p> -->
 
 <h3 align="center">:hammer_and_wrench: Languages and Tools</h3>
 
