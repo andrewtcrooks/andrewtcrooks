@@ -13,13 +13,7 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=andrewtcrooks&show_icons=true" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andrewtcrooks/andrewtcrooks/output/github-contribution-grid-snake.svg" alt="snake" />
-</p>
+![GitHub Snake](https://raw.githubusercontent.com/andrewtcrooks/andrewtcrooks/refs/heads/output/github-snake-dark.svg)
 
 <p align="center">
   <img src="./github-metrics.svg" alt="metrics" />
