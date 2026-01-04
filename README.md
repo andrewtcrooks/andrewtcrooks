@@ -1,8 +1,8 @@
-<p align="center">
-  <img src="./banner.png" alt="banner" />
-</p>
+[![Alt text](banner.png)](https://www.datanovaconsulting.com)
 
 <h1 align="center">Hi, I'm Andrew Crooks 👋</h1>
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=andrewtcrooks.andrewtcrooks&left_color=royalblue&right_color=black"  />
+
 <p align="center">Python • Automation • Scraping • Data</p>
 
 ### Languages and Tools
@@ -22,14 +22,3 @@
   <img src="./github-metrics.svg" alt="metrics" />
 </p>
 
-<!-- profile render poke 2026-01-04T03:50:31Z -->
-
-<!-- profile render poke 2026-01-04T04:12:08Z -->
-
-<!-- profile render poke 2026-01-04T05:19:07Z -->
-
-<!-- profile render poke 2026-01-04T05:22:30Z -->
-
-<!-- profile render poke 2026-01-04T05:24:44Z -->
-
-<!-- profile render poke 2026-01-04T05:25:07Z -->
