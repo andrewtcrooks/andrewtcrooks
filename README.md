@@ -5,9 +5,12 @@
 
 <p align="center">Python • Automation • Scraping • Data</p>
 
-### Languages and Tools
+<h3 align="center">:hammer_and_wrench: Languages and Tools</h3>
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,java,docker,linux,postgres,git,githubactions&perline=9" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,js,ts,java,docker,linux,postgres,git&perline=9" />
+  </a>
 </p>
 
 <p align="center">
