@@ -1,0 +1,68 @@
+name: GitHub Metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * *"  # daily 03:00 UTC (adjust if you want)
+
+permissions:
+  contents: write
+  issues: read
+  pull-requests: read
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # Only keep this if you actually hit docker-related failures.
+      # - name: Fix Docker installation conflicts
+      #   run: |
+      #     sudo apt-get remove -y containerd docker.io containerd.io || true
+      #     sudo apt-get update
+      #     sudo apt-get install -y docker.io jq
+
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: andrewtcrooks
+          template: classic
+          base: header, activity, community, repositories, metadata
+          base_indepth: true
+          config_octicon: true
+          config_timezone: America/Los_Angeles
+          config_twemoji: true
+
+          # Languages plugin
+          plugin_languages: true
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_indepth: true
+          plugin_languages_limit: 8
+          plugin_languages_other: true
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+
+          # OPTIONAL: LeetCode (disable unless you actually want it)
+          plugin_leetcode: false
+          # plugin_leetcode_limit_recent: 2
+          # plugin_leetcode_limit_skills: 10
+          # plugin_leetcode_sections: solved
+          # plugin_leetcode_user: YOUR_LEETCODE_USERNAME
+
+          # Auto-commit configuration
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: main
+          committer_message: "📈 Update GitHub metrics [skip ci]"
+          filename: github-metrics.svg
