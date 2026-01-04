@@ -2,7 +2,7 @@
   <img src="./banner.png" alt="banner" />
 </p>
 
-<h1 align="center">Hi, I'm Andrew 👋</h1>
+<h1 align="center">Hi, I'm Andrew Crooks 👋</h1>
 <p align="center">Python • Automation • Scraping • Data</p>
 
 ### Languages and Tools
