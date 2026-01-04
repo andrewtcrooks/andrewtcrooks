@@ -13,7 +13,8 @@
   </a>
 </p>
 
-![GitHub Snake](https://raw.githubusercontent.com/andrewtcrooks/andrewtcrooks/refs/heads/output/github-snake-dark.svg)
+![GitHub Snake](https://raw.githubusercontent.com/andrewtcrooks/andrewtcrooks/output/github-snake-dark.svg)
+
 
 <p align="center">
   <img src="./github-metrics.svg" alt="metrics" />
