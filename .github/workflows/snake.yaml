@@ -1,6 +1,9 @@
 name: Generate GitHub Contributions Snake Animation
 
 on:
+  permissions:
+    contents: write
+
   schedule:
     - cron: "0 0 * * *"
 
